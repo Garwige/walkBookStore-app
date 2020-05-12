@@ -1,0 +1,27 @@
+// 修改输入框的全局样式
+.el-form {
+  .el-form-item {
+    .el-form-item__content {
+      .el-select {
+        width: 100%;
+      }
+
+      .el-input {
+        .el-input__inner {
+          border-radius: 0;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+
+// 修改按钮公共样式
+.el-button {
+  padding: 0 15px;
+  border-radius: 0;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
